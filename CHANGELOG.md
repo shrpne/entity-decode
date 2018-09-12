@@ -1,3 +1,6 @@
+## 2.0.1 - 2018-09-12
+- change browser module from commonjs to es2015
+
 ## 2.0.0 - 2018-09-12
 - Keel HTML tags in the output string for browser implementation to align with server `he` behavior
 

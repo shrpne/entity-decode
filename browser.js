@@ -5,7 +5,7 @@
 
 let decoder;
 
-function decode(html) {
+export default function decode(html) {
     decoder = decoder || document.createElement('div');
     // Escape HTML before decoding for HTML Entities
     html = escape(html).replace(/%26/g,'&').replace(/%23/g,'#').replace(/%3B/g,';');
@@ -14,5 +14,3 @@ function decode(html) {
 
     return unescape(decoder.textContent);
 }
-
-module.exports = decode;
