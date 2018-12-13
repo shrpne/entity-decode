@@ -1,3 +1,1 @@
-const he = require('he');
-
-module.exports = he.decode;
+module.exports = require('he').decode;

@@ -1,7 +1,7 @@
 {
   "name": "entity-decode",
-  "version": "2.0.1",
-  "description": "Enviroment agnostic entity decoder",
+  "version": "2.0.2",
+  "description": "Environment agnostic entity decoder",
   "main": "node.js",
   "browser": "browser.js",
   "files": [

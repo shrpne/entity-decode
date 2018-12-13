@@ -3,7 +3,7 @@
  * @see https://stackoverflow.com/a/13091266/4936667
  */
 
-let decoder;
+var decoder;
 
 export default function decode(html) {
     decoder = decoder || document.createElement('div');

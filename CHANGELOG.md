@@ -1,3 +1,6 @@
+## 2.0.2 - 2018-12-13
+- make it es5 compatible
+
 ## 2.0.1 - 2018-09-12
 - change browser module from commonjs to es2015
 
