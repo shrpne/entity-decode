@@ -13,18 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshmocek/entity-decode.git"
+    "url": "git+https://github.com/shrpne/entity-decode.git"
   },
   "keywords": [
     "entity",
     "decode"
   ],
-  "author": "joshmocek",
+  "author": "shrpne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joshmocek/entity-decode/issues"
+    "url": "https://github.com/shrpne/entity-decode/issues"
   },
-  "homepage": "https://github.com/joshmocek/entity-decode#readme",
+  "homepage": "https://github.com/shrpne/entity-decode#readme",
   "dependencies": {
     "he": "^1.1.1"
   }
