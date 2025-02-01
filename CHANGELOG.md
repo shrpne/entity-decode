@@ -1,3 +1,7 @@
+## 3.0.0 - 2025-02-01
+- replace `he` with `entities`
+- add types
+
 ## 2.0.2 - 2018-12-13
 - make it es5 compatible
 

@@ -5,6 +5,11 @@
 
 var decoder;
 
+/**
+ * Decodes HTML entities in a string using browser's native DOM API.
+ * @param {string} html - The HTML string containing entities to decode
+ * @returns {string} The decoded string
+ */
 export default function decode(html) {
     decoder = decoder || document.createElement('div');
     // Escape HTML before decoding for HTML Entities

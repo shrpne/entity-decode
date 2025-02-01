@@ -1,15 +1,29 @@
 {
   "name": "entity-decode",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "Environment agnostic entity decoder",
   "main": "node.js",
   "browser": "browser.js",
+  "types": "types/node.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/node.d.ts",
+      "browser": {
+        "types": "./types/browser.d.ts",
+        "default": "./browser.js"
+      },
+      "default": "./node.js"
+    }
+  },
   "files": [
     "node.js",
-    "browser.js"
+    "browser.js",
+    "/types/"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "npm run test",
+    "tsc": "tsc -p .",
+    "test": "npm run tsc"
   },
   "repository": {
     "type": "git",
@@ -26,6 +40,9 @@
   },
   "homepage": "https://github.com/shrpne/entity-decode#readme",
   "dependencies": {
-    "he": "^1.1.1"
+    "entities": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
   }
 }
